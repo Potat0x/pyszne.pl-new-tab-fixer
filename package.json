@@ -1,0 +1,19 @@
+{
+  "name": "pyszne-pl-new-tab-fixer",
+  "version": "0.1.0",
+  "description": "Umożliwia otwieranie restauracji w nowej karcie na pyszne.pl",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-ext run --start-url https://www.pyszne.pl/restauracja-wroclaw-wroclaw-stare-miasto-50-010"
+  },
+  "keywords": [
+    "pyszne.pl",
+    "new tab"
+  ],
+  "author": "Potat0x",
+  "license": "Mozilla Public License Version 2.0",
+  "homepage": "https://github.com/Potat0x",
+  "devDependencies": {
+    "web-ext": "^5.1.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "pyszne-pl-new-tab-fixer",
+  "version": "0.1",
+  "description": "Umożliwia otwieranie restauracji w nowej karcie na pyszne.pl",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.pyszne.pl/*"
+      ],
+      "js": [
+        "src/main.js"
+      ]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "addon@example.com",
+      "strict_min_version": "73.0a1"
+    }
+  },
+  "author": "Potat0x",
+  "permissions": []
+}
