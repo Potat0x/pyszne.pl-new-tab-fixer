@@ -1,5 +1,5 @@
 {
-  "name": "pyszne-pl-new-tab-fixer",
+  "name": "pyszne.pl-new-tab-fixer",
   "version": "0.1.0",
   "description": "Umożliwia otwieranie restauracji w nowej karcie na pyszne.pl",
   "main": "index.js",

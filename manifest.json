@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "pyszne-pl-new-tab-fixer",
+  "name": "pyszne.pl new tab fixer",
   "version": "0.1",
   "description": "Umożliwia otwieranie restauracji w nowej karcie na pyszne.pl",
   "content_scripts": [
